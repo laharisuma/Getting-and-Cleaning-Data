@@ -35,4 +35,4 @@ combined$activity <- factor(combined$activity, labels=c("Walking","Walking Upsta
 ##Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 overallData <- melt(combined, id=c("subjectID","activity"))
 tidy <- dcast(overallData, subjectID+activity ~ variable, mean)
-write.csv(tidy, "tidy.csv", row.names=FALSE)
+write.table(tidy, "tidy.txt", row.names=FALSE)
