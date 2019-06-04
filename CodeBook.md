@@ -2,9 +2,9 @@
 This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
 
 ### Variables
-## subject_test: subject IDs for the test set
-## subject_train: subject IDs for the training set
-## X_train: values for the training set
+# subject_test: subject IDs for the test set
+# subject_train: subject IDs for the training set
+# X_train: values for the training set
 x_test: values for the testing set
 y_train:activity IDs for the training set
 y_test activity IDs for the testing set
